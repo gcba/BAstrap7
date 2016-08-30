@@ -396,7 +396,7 @@ input[type=checkbox]:focus {
 .btn-primary:visited {
   background-color: #fcda59;
   border-color: #fcda59;
-  color: #685723;
+  color: #333333;
   box-shadow: none;
 }
 
