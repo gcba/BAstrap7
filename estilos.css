@@ -1,0 +1,716 @@
+/*//////// GENERAL ////////*/
+
+ .container {
+     width: 100%;
+     padding: 0px;
+            }
+
+.no_padding {
+    padding: 0px;
+            }
+
+/*
+ * Header + Nav
+ */
+
+.navbar-top .sub-brand {
+  float: left;
+  line-height: 1.7em;
+  padding-left: 10px;
+  border-left: solid 1px #333;
+}
+
+.bac-header {
+  width: 90px;
+  /*background-image:url(ba_logo.png);
+  background-image: url(ba_logo.png), none;*/
+  padding-right: 15px;
+}
+
+.navbar-brand {
+  padding: 0px !important;
+}
+
+.navbar-primary.navbar-top .navbar-brand {
+  margin-top: 18px;
+  margin-right: 10px;
+
+}
+
+.navbar-primary {
+    border-bottom: 0px;
+    border-top: 6px #fdd306 solid;
+    box-shadow: 1px 1px 5px #e0e0e0;
+}
+
+.container-sub-brand
+.sub-brand {
+    padding-left: 0px;
+    margin-left: 10px;
+
+}
+
+.sub-brand {
+    color: #333;
+
+}
+
+.navbar {
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+    z-index: 1;
+            }
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 40px;
+            }
+
+
+
+.navbar-top h5.sub-brand {
+    margin-right: 30px;
+            }
+
+.jumbotron jumbotron-misc {
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+            }
+
+.main-container {
+    padding: 0px;
+            }
+
+@media (min-width: 992px) {
+    .col-md-3 {
+    margin-top: 50px;
+    }}
+
+/* affix */
+.container-shortcut {
+    margin-top: 40px;
+    margin-bottom: 40px;
+            }
+
+.img-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #cbcbcb;
+            }
+
+/* dividers */
+.divider {
+	margin: 1em 0;
+	border-bottom: 1px solid #ddd;
+}
+
+.divider_bold {
+	margin: 3em 0;
+	border-bottom: 2px solid #676767;
+}
+
+ /* Tipografía */
+.portfolio a {
+    text-decoration: none;
+            }
+
+.intro2 a {
+    text-decoration: none;
+                color: #333;
+            }
+
+a {
+    text-decoration: none !important;
+            }
+
+.p_tooltip {
+    color: #333 ;
+    text-decoration: none !important;
+}
+
+.p_tooltip:hover {
+    color: #333 ;
+    text-decoration: none !important;
+}
+
+.warning {
+  color: #f3a32d;
+  font-weight: bold;
+}
+
+
+/*
+.link_style {
+    text-decoration: none;
+}
+
+
+.panel-body a {
+     text-decoration: none;
+     color: #333;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a .link_style {
+    color: #0695d6 !important;
+    text-decoration: underline !important;
+}
+*/
+
+.footer {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pre-footer {
+    background-color:  #f6f6f6;
+}
+.pre-footer > h3{
+    margin: 0;
+    padding: 10px 0
+}
+
+.sub-content .col-md-4 {
+    padding-left: 0px;
+}
+
+/* Introducción*/
+
+
+.intro_grisclaro {
+                background-color: #fdfdfd !important;
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
+
+.vacio {
+                height: 300px;
+                background-color: #9678fc;
+                width: 300px;
+            }
+
+.caption  h3  {
+                margin-top: 5px;
+            }
+
+.portfolio {
+                background-color: #f8f8f8;
+            }
+
+.portfolio .thumbnail {
+                box-shadow: none;
+                border: 0px;
+    background-color:  #fdfdfd;
+            }
+
+
+.portfolio .thumbnail img{
+    border: 1px #cccccc solid;
+            }
+
+.imagen_bienvenida {
+    width: 900px;
+    margin: 0 auto;
+    min-width: 200px;
+            }
+
+.bg-contenedor {
+    background-color: #f8f8f8;
+            }
+
+.container_secundario {
+    padding-left: 10%;
+    padding-right: 10%;
+            }
+/* Responsive Container secundario
+
+@media (max-width: 768px) {
+    .container_secundario {
+    padding-left: 50px;
+    padding-right: 50px;
+            }
+}
+
+@media (max-width: 992px) {
+    .container_secundario {
+    padding-left: 50px;
+    padding-right: 50px;
+            }
+}*/
+
+
+
+/* Responsive Logo BA */
+    @media screen and (max-width: 320px)  {
+    #ba-logo {
+       display: none;
+    }
+
+    }
+
+/*//////// LANDING PRESENTACIÓN  ////////*/
+.atajos {
+    height: 200px;
+}
+
+.img-checklist {
+    min-width: 200px;
+    margin: 0 auto;
+}
+
+
+/*//////// BASTRAP  ////////*/
+
+/*
+ * Tipografía
+ */
+
+.amarillo {
+    background-color: #fdd306;
+}
+
+.celeste {
+    background-color: #19c3e3;
+}
+
+.gris_footer {
+    background-color: #343434;
+    color: #ffffff;
+}
+
+p, h4 {
+    line-height: 1.6em;
+}
+
+.mark {
+    padding: 0.1em;
+}
+
+.glyphicon-arrow-right {
+    margin-right: 5px;
+    font-size: 0.8em;
+}
+
+.subtitle {
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+#bastrap a {
+    text-decoration: none;
+    color: #333;
+}
+
+/*
+ * Callouts
+ *
+ * Not quite alerts, but custom and helpful notes for folks reading the docs.
+ * Requires a base and modifier class.
+ */
+
+/* Common styles for all types */
+.bs-callout {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+}
+.bs-callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+.bs-callout code {
+  border-radius: 3px;
+}
+
+/* Tighten up space between multiple callouts */
+.bs-callout + .bs-callout {
+  margin-top: -5px;
+}
+
+/* Variations */
+.bs-callout-danger {
+  border-left-color: #ce4844;
+}
+.bs-callout-danger h4 {
+  color: #ce4844;
+}
+.bs-callout-warning {
+  border-left-color: #f3a32d;
+  background-color: #fffcfc;
+
+}
+.bs-callout-warning h4 {
+  color: #f3a32d;
+}
+
+.bs-callout-info {
+  border-left-color: #19c3e3;
+  background-color: rgb(251, 254, 255);
+}
+.bs-callout-info h4 {
+  color: #19c3e3;
+}
+
+
+/*
+ * Header
+ */
+.navbar-top h5.sub-brand {
+    margin-top: 0px;
+}
+
+/*
+ * Nav
+ */
+.sidebar .nav > li > a {
+    display: block;
+    color: #888;
+    padding: 28px 30px 3px 14px;
+    font-family: "OpenSans", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.sidebar .nav > li > a:hover,
+.sidebar .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #ffffff;
+    font-weight: bolder;
+    border-left:0px;
+    color: #333;
+}
+
+.sidebar .nav > .active > a,
+.sidebar .nav > .active:hover > a,
+.sidebar .nav > .active:focus > a {
+    font-family: "OpenSansBold", Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    color: #333;
+    border-left:0px;
+    /* border-left:2px solid #19c3e3; */
+}
+
+.sidebar-first {
+  margin-top: 0px;
+}
+
+/*
+ * Panel
+ */
+
+.panel {
+     margin-top: 80px;
+     margin-bottom: 0px;
+            }
+
+.panel-docs > .panel-body {
+     margin-bottom: 0px;
+            }
+
+.panel-body {
+     padding-top: 100px;
+     padding-bottom: 100px;
+     padding-left: 0px;
+     padding-right: 0px;
+            }
+
+.panel-body-nopadding {
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 0px;
+     padding-right: 0px;
+
+}
+
+.panel-body-nopadding h3  {
+     margin-top: 10px;
+
+}
+
+.panel-docs > .panel-body{
+    margin-top:0px;
+    margin-bottom:0px;
+  }
+
+.panel-content {
+     padding: 0px 15px 15px 15px;
+            }
+
+.sub-content {
+    margin-bottom: 80px;
+}
+
+.sub-heading {
+    margin-bottom: 40px;
+}
+
+/* SECTION HEADERS */
+
+/*.headerCSS {
+    background-color: #fdd306;
+    height: 50px;
+
+}*/
+
+
+/* SECTION CSS */
+
+.sub-heading .panel-body {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 0px;
+}
+
+/*
+ * Editores de html
+ */
+
+.panel-footer {
+    background-color: #e0dfdf;
+    border-top: 2px #ffffff solid;
+}
+
+pre {
+    background-color: #e0dfdf;
+    margin-bottom: 0px;
+
+}
+
+.panel-ejemplo{
+    padding: 50px;
+}
+
+/*
+ * Tipografía
+ */
+
+.lead {
+    margin-bottom: 40px;
+}
+
+h1 {
+ 	font-size: 2.3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+.copy {
+ 	font-size: 1.5em;
+}
+
+header p {
+	color: #676767;
+	margin-top: 20px;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+h4 {
+	font-size: 1.4em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #111;
+}
+
+#card-resultado h4 {
+	font-size: 1.1em;
+	color: #676767;
+}
+
+h5 {
+	margin-top: 4em;
+	margin-bottom: .7em;
+}
+
+
+.tipo-p {
+	font-size: 1.2em;
+	color: #676767;
+}
+
+.typo-style {
+	color: #777;
+
+}
+
+
+.subtitle {
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+#bastrap a {
+    text-decoration: none;
+    color: #333;
+}
+
+/*
+ * Paleta cromática
+ * Incluye: colores claros, oscuros y grises
+ */
+
+.color {
+	height: 70px;
+	padding: 0 5px 5px 0px;
+	border-radius: 5px;
+    margin: 10px 10px 0px 0px;
+}
+
+.bs {
+	box-shadow: 0 3px 8px rgba(0,0,0,.1);
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.color p {
+	margin-top: 12px;
+	color: #fff;
+    margin-left: 10px;
+}
+
+
+/* Colores claros */
+
+.unoClaro {
+	background: #e76056;
+}
+
+.dosClaro {
+	background: #f3a32d;
+}
+
+.tresClaro {
+	background: #fcda59;
+}
+
+.cuatroClaro {
+	background: #2ebc98;
+}
+
+.cincoClaro {
+	background: #99c25f;
+}
+
+.seisClaro {
+	background: #2ebc98;
+}
+
+.sieteClaro {
+	background: #19c3e3;
+}
+
+.ochoClaro {
+	background: #0389d1;
+}
+
+.nueveClaro {
+	background: #3e4f5e;
+}
+
+.diezClaro {
+	background: #9d6db6;
+}
+
+.onceClaro {
+	background: #f562a2;
+}
+
+/* Colores oscuros */
+
+.unoOscuro {
+	background: #e74c3c;
+}
+
+.dosOscuro {
+	background: #f39c12;
+}
+
+.tresOscuro {
+	background: #fdd306;
+}
+
+.cuatroOscuro {
+	background: #18b596;
+}
+
+.cincoOscuro {
+	background: #88bf48;
+}
+
+.seisOscuro {
+	background: #18b596;
+}
+
+.sieteOscuro {
+	background: #00b3e3;
+}
+
+.ochoOscuro {
+	background: #037dbf;
+}
+
+.nueveOscuro {
+	background: #34485e;
+}
+
+.diezOscuro {
+	background: #9b59b6;
+}
+
+.onceOscuro {
+	background: #f54789;
+}
+
+
+
+/* Grises */
+
+.unoGris {
+    background: #1d1c1a;
+}
+
+.dosGris {
+    background: #333;
+}
+
+.tresGris {
+    background: #717170;
+}
+
+.cuatroGris {
+    background: #a6a4a4;
+}
+
+.cincoGris {
+    background: #c5c3c2;
+}
+
+.seisGris {
+    background: #e5e5e5;
+}
+
+.sieteGris {
+    background: #f3f0ed;
+}
+
+.ochoGris {
+    background: #f5f5f5;
+}
