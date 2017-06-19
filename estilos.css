@@ -1,6 +1,6 @@
 /*//////// GENERAL ////////*/
 
- .container {
+.container {
      width: 100%;
      padding: 0px;
             }
@@ -22,8 +22,8 @@
 
 .bac-header {
   width: 90px;
-  /*background-image:url(ba_logo.png);
-  background-image: url(ba_logo.png), none;*/
+  background-image:url(bastrap3/bac-header-2.svg);
+  background-image: url(bastrap3/bac-header-2.svg), none;
   padding-right: 15px;
 }
 
@@ -171,6 +171,7 @@ a .link_style {
 .pre-footer {
     background-color:  #f6f6f6;
 }
+
 .pre-footer > h3{
     margin: 0;
     padding: 10px 0
@@ -188,6 +189,12 @@ a .link_style {
                 padding-top: 100px;
                 padding-bottom: 100px;
             }
+
+.intro_gris {
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
+
 
 .vacio {
                 height: 300px;
@@ -263,6 +270,7 @@ a .link_style {
     min-width: 200px;
     margin: 0 auto;
 }
+
 
 
 /*//////// BASTRAP  ////////*/
@@ -410,7 +418,7 @@ p, h4 {
  */
 
 .panel {
-     margin-top: 80px;
+     margin-top: 0px;
      margin-bottom: 0px;
             }
 
@@ -418,11 +426,12 @@ p, h4 {
      margin-bottom: 0px;
             }
 
+
 .panel-body {
-     padding-top: 100px;
+     /*padding-top: 100px;
      padding-bottom: 100px;
      padding-left: 0px;
-     padding-right: 0px;
+     padding-right: 0px;*/
             }
 
 .panel-body-nopadding {
@@ -488,7 +497,7 @@ pre {
 }
 
 .panel-ejemplo{
-    padding: 50px;
+    padding: 20px;
 }
 
 /*

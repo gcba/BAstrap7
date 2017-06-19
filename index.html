@@ -3,138 +3,299 @@
 <!--[if IE 7]><html lang="es" class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
 <!--[if IE 8]><html lang="es" class="lt-ie10 lt-ie9"> <![endif]-->
 <!--[if IE 9]><html lang="es" class="lt-ie10"> <![endif]-->
-<!--[if gt IE 9]><!--> <html lang="es"> <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="La herramienta de trabajo que permite unificar la interfaz de los sitios web del Gobierno de la Ciudad de Buenos Aires.">
-    <meta name="author" content="Gobierno de la Ciudad de Buenos Aires">
-    <title>BAstrap</title>
-    <link rel="shortcut icon" href="bastrap3/bac-header.png">
-    <link rel="apple-touch-icon-precomposed" href="bastrap3/favicon-mobile.png">
-    <link rel="stylesheet" href="bastrap3/bootstrap.min.css">
-    <link rel="stylesheet" href="bastrap3/bastrap.css">
-    <link rel="stylesheet" href="docs/docs.css">
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="es"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="La herramienta de trabajo que permite unificar la interfaz de los sitios web del Gobierno de la Ciudad de Buenos Aires.">
+        <meta name="author" content="Gobierno de la Ciudad de Buenos Aires">
 
-    <style>
-        .navbar-primary {
-    border: 0;
-    background-color: #ffffff;
-    border-top: 6px solid #fdd306;
-}
+        <link rel="shortcut icon" href="images/Bastrap8_mascota-03.png" type="image/x-icon">
+        <link rel="icon" href="images/Bastrap8_mascota-03.png" type="image/x-icon">
 
-    </style>
-  </head>
+        <title>Lineamientos de Buenos Aires</title>
 
-  <body role="document" data-spy="scroll" data-target="#affix-nav" class="bg-white">
+        <link rel="stylesheet" href="bastrap3/bootstrap.min.css">
+        <link rel="stylesheet" href="bastrap3/bastrap.css">
+        <link rel="stylesheet" href="docs/docs.css">
+
+        <link rel="stylesheet" href="estilos.css">
+
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
 
+    </head>
+    <body role="document" data-spy="scroll" data-target="#affix-nav">
+        <main class="main-container" role="main">
+            <div class="container container-main">
+                <header class="navbar navbar-primary navbar-top">
+                    <div class="container">
+                      <div class="row">
+                          <a class="navbar-brand bac-header" href="#"></a>
 
+                          <h2 class="sub-brand">Lineamientos de Buenos Aires</h2>
+                          <!--<h5 class="sub-brand">Vamos Buenos Aires</h5>-->
+                    </div>
+                    </div>
+                </header>
 
+                <nav class="sidebar" role="sidebar" class="bg-white" >
+                    <div class=" col-md-2">
+                    <ul class="panel panel-default nav sidenav affix-top" id="affix-nav" data-spy="affix" data-offset-top="286" style="margin-top: 80px;">
 
-      <header class="navbar navbar-primary navbar-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-sm-6">
-              <a class="navbar-brand bac-header" href="index.html"></a>
-            </div>
-            <div class="col-md-6 col-sm-6 text-right oculto">
-              <h5 class="sub-brand"><img src="bastrap3/bac-header-2.png"/></h5>
-              <!--<h5 class="sub-brand">Vamos Buenos Aires</h5>-->
+                        <li class="sidebar-first"><a href="#introduccion" class="smoothScroll">Introducción</a>
+                          <ul class="nav" style="display:none;">
+                            <li><a href="#introduccion" class="smoothScroll">Introducción</a></li>
+                          </ul>
+                        </li>
 
+                        <li><a href="#bastrap" class="smoothScroll">BAstrap - BA Apps</a>
+                          <ul class="nav" style="display:none;">
+                            <li><a href="#bastrap" class="smoothScroll">BAstrap - BA Apps</a></li>
+                          </ul>
+                        </li>
 
+                        <li><a href="#checklist" class="smoothScroll">Ser parte de BA</a>
+                          <ul class="nav" style="display:none;">
+                            <li><a href="#checklist" class="smoothScroll">Ser parte de BA</a></li>
+                          </ul>
+                        </li>
 
+                        <li><a href="#recursos" class="smoothScroll">Recursos</a>
+                          <ul class="nav" style="display:none;">
+                            <li><a href="#recursos" class="smoothScroll">Recursos</a></li>
+                          </ul>
+                        </li>
 
+                        <li><a href="#portfolio" class="smoothScroll">Portfolio</a>
+                          <ul class="nav" style="display:none;">
+                            <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+                          </ul>
+                        </li>
 
-            </div>
-          </div>
-        </div>
-      </header>
+                    </ul>
+                    </div>
+                </nav>
 
-  <div class="jumbotron jumbotron-home jumbotron-misc jumbotron-main">
+                <div class="container-fluid container-contenido">
+                    <div class="row no_padding">
+                        <div class="col-md-10 no_padding">
+                            <!-- Login -->
+                            <div class="panel panel-docs bg-contenedor">
+                               <div class="panel-body intro_grisclaro"   id="introduccion">
+                                    <div class="container container_secundario ">
+                                        <img src="images/mockup_ba.png" alt="" class="img-responsive imagen_bienvenida">
+                                        <div class=" text-center">
+                                        <div class="container-shortcut">
+                                            <div class="row">
+                                            <div class="col-md-4 text-center"><img class="atajos" src="images/bastrap7_ilustraciones_02.png"><h3>Enfocado en el vecino</h3></div>
+                                            <div class="col-md-4"><img class="atajos" src="images/bastrap7_ilustraciones_03.png"><h3>Acelera el desarrollo</h3></div>
+                                            <div class="col-md-4"><img class="atajos" src="images/bastrap7_ilustraciones_04.png"><h3>Construye la familia de sitios BA</h3></div>
+                                            </div>
+                                        </div>
+                                        <p class="lead" style="margin-top:15px">BAstrap y BA apps son los lineamientos diseñados por la Dirección General de Gestión digital del Gobierno de la Ciudad de Buenos Aires. El principal objetivo de estos manuales es establecer las pautas básicas y necesarias que deben seguir todos los sitios y aplicaciones que formen parte de la familia de Buenos Aires para crear una mejor experiencia digital para todos los usuario. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-body intro_gris" id="bastrap">
+                                    <div class="container container_secundario">
+                                        <section class="panel-content">
+                                        <div class="col-md-offset-1 col-md-10  text-center">
+                                            <div class="col-md-6 col-sm-12"><a href="https://gcba.github.io/BAstrap7/"><img src="images/mockup_bastrap.png" class="img-thumbnail img-responsive"><h3>BAstrap 7</h3>
+                                            <p>Sitios y páginas web</p></a>
+                                            </div>
+                                            <div class="col-md-6 col-sm-12"><img src="images/baapps_inactivo.png" class="img-thumbnail img-responsive"><h3>Próximamente <br><br>BA Apps</h3>
+                                            <p>Aplicaciones</p>
+                                            </div>
+                                        </div>
+                                        </section>
+                                    </div>
+                                </div>
+                                <div class="panel-body intro_grisclaro" id="checklist">
+                                    <div class="container container_secundario">
+                                        <section class="panel-content">
+                                        <div class="col-lg-12 col-md-12 text-center">
+                                            <div class="col-lg-3 col-md-12" style="bottom: 0px; margin-top: 0px;"><a href="checklist.html"><img src="images/bastrap7_ilustraciones-05.png" class="img-responsive img-checklist"></a>
+                                            </div>
+                                            <div class="col-lg-8 col-md-12" style="margin-top:25px;">
+                                            <h2>¿Querés que tu sitio forme parte de la familia de Buenos Aires?</h2>
+                                                <p>Todos los sitios y aplicaciones del Gobierno de la Ciudad de Buenos Aires deben respetar ciertos lineamientos gráficos, de usabilidad y contenido que son muy importantes porque están pensados para lograr una mejor experiencia en el vecino. Además permiten que el sitio o la aplicación <strong>forme parte de la familia de Buenos Aires.</strong><br><br><br></p>
+                                                <div class="col-lg-6 col-md-12"><p><a class="btn btn-primary btn-lg" role="button" href="https://gcba.github.io/BAstrap7/checklist.html">Sitios y páginas web</a></p></div>
+                                                <div class="col-lg-6 col-md-12"><p><a class="btn btn-default btn-lg" role="button" href="#">Aplicaciones</a></p></div>
+                                            </div>
+                                        </div>
+                                        </section>
+                                    </div>
+                                </div>
+                                <div class="panel-body intro_gris"   id="recursos">
+                                    <div class="container container_secundario">
+                                        <section class="panel-heading">
+                                                <div class="container">
+                                                  <div class="col-md-12 ">
+                                                    <h1>Recursos</h1><br><br>
+                                                    <p class="lead">Te ofrecemos las principales herramientas y recursos a tener en cuenta al momento de diseñar e implementar tu página web o aplicación. </p>
+                                                  </div>
+                                                </div>
+                                         </section>
+                                        <section class="panel-content">
 
-      <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-          <div class="row">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-                <span class="sr-only">Cambiar navegación</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.html">BAstrap 7</a>
-            </div>
-            <div class="collapse navbar-collapse" id="main-nav">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="comenzar.html">Comenzar</a></li>
-                <li><a href="estilos.html">Estilos</a></li>
-                <li><a href="componentes.html">Componentes</a></li>
-                <!-- <li class="disabled"><a href="#">Lineamientos</a></li> -->
-                <li><a href="bastrapv06/index.html" target="blank">BAstrap 0.6</a></li>
-                <li><a href="old/index.html" target="blank">BAstrap 0.5</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
+                                            <div class="sub-content">
+                                                <div class="col-lg-4 col-md-6">
+                                                        <a href="headers_y_footers.zip">
+                                                            <div class="thumbnail">
+                                                            <img src="images/headeryfooter.png" alt="" class=".img-responsive">
+                                                            <div class="caption">
+                                                                <h4 class="text-left">Header y Footer</h4>
+                                                                <p>Descarga los html y css para incluir el header y footer institucional en tu sitio.</p>
+                                                            </div>
+                                                            </div>
+                                                         </a>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                        <a href="paleta_cromatica.zip">
+                                                            <div class="thumbnail">
+                                                            <img src="images/paleta.png" alt="" class="img-responsive">
+                                                            <div class="caption">
+                                                                <h4 class="text-left">Paleta cromática</h4>
+                                                                <p>Descargá la paleta cromática de BAstrap y BA Apps en formato .ase y en .css</p>
+                                                            </div>
+                                                            </div>
+                                                         </a>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                        <a href="http://www.buenosaires.gob.ar/innovacion/ciudadinteligente/gestiondigital/webs-y-apps/manual-de-contenidos">
+                                                            <div class="thumbnail">
+                                                            <img src="images/contenidos.png" alt="" class=".img-responsive">
+                                                            <div class="caption">
+                                                                <h4 class="text-left">Manual de Contenidos</h4>
+                                                                <p>Consejos y parámetros para generar contenido en las páginas de Buenos Aires.</p>
+                                                            </div>
+                                                            </div>
+                                                         </a>
+                                                </div>
+                                                </div>
+                                                <div class="sub-content">
+                                                <div class="col-lg-4 col-md-6">
+                                                        <a href="http://gcba.github.io/BAstrap/">
+                                                            <div class="thumbnail">
+                                                            <img src="images/bastrap3.png" alt="" class="img-responsive">
+                                                            <div class="caption">
+                                                                <h4 class="text-left">BAstrap 3</h4>
+                                                                <p>Accedé a los frameworks, componentes, estilos y recursos de diseño del BAstrap 3.<br></p>
+                                                            </div>
+                                                            </div>
+                                                         </a>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                        <a href="https://gcba.github.io/BAstrap7/">
+                                                            <div class="thumbnail">
+                                                            <img src="images/bastrap7.png" alt="" class="img-responsive">
+                                                            <div class="caption">
+                                                                <h4 class="text-left">BAstrap 7</h4>
+                                                                <p>Accedé a los frameworks, componentes, estilos y recursos de diseño del BAstrap 7.<br></p>
+                                                            </div>
+                                                            </div>
+                                                         </a>
+                                                </div>
+                                          </div>
+                                        </section>
+                                    </div>
+                                </div>
+                               <div class="panel-body  intro_grisclaro"   id="portfolio">
+                                    <div class="container container_secundario">
+                                        <section class="panel-heading">
+                                                <div class="container">
+                                                  <div class="col-md-12">
+                                                    <h1>Portfolio</h1><br><br>
+                                                    <p class="lead">Te proponemos visitar algunos de los sitios diseñados siguiendo los lineamentos de BAstrap.</p>
+                                                  </div>
+                                                </div>
+                                        </section>
+                                        <section class="panel-content">
+                                          <div class="sub-content">
+                                                <div class="col-lg-6 text-center">
+                                                    <div class="portfolio">
+                                                        <a href="http://www.buenosaires.gob.ar/">
+                                                            <div class="thumbnail">
+                                                            <img src="images/buenosaires.png" alt="" class="img-responsive">
+                                                              <div class="caption">
+                                                                <h3 class="text-center"><br>Buenos Aires</h3>
+                                                                <p></p><br>
+                                                              </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                 </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h1>BAstrap 7</h1>
-          <p class="lead">La herramienta basada en <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a> que permite unificar la interfaz de los sitios web del Gobierno de la Ciudad de Buenos Aires.</p>
-          <div class="col-md-8 col-md-offset-2">
-            <p><a href="comenzar.html" class="btn btn-primary btn-xl btn-block" role="button">Comenzar</a></p>
-            <p><a href="BAstrap3.zip" class="btn btn-default btn-lg btn-block" role="button">Descargar framework y ejemplos</a></p>
-            <p><a href="bastrap-uikit-7.zip" class="btn btn-default btn-lg btn-block" role="button">Descargar recursos de diseño</a></p>
-            <p><a href="checklist.html" class="btn btn-primary btn-xl btn-block" role="button">Ingresar a los lineamientos</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+                                                <div class="col-lg-6 text-center">
+                                                    <div class="portfolio">
+                                                        <a href="https://miba.buenosaires.gob.ar/?/">
+                                                            <div class="thumbnail">
+                                                            <img src="images/miba.png" alt="" class="img-responsive">
+                                                              <div class="caption">
+                                                                <h3 class="text-center"><br>miBA</h3>
+                                                                <p></p><br>
+                                                              </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                 </div>
 
-    <footer>
-      <div class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-sm-6">
-              <a class="navbar-brand bac-footer" href="http://www.buenosaires.gob.ar" target="_blank"></a>
-            </div>
-            <div class="col-md-6 col-sm-6">
-              <div class="sub-brand">
-                <p>Dirección General de Gestión Digital<br />
-                <span class="text-muted">Ministerio de Modernización</span></p>
+                                          </div>
+                                        </section>
+                                    </div>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 text-center text-muted pre-footer">
+                   <h3>Hecho con <span class="glyphicon glyphicon-heart text-danger" aria-hidden="true"></span> en BA</h3>
+                </div>
+
+             </div>
+
+        </main>
+
+        <footer>
+
+              <div class="footer">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                      <a class="navbar-brand bac-footer" href="http://www.buenosaires.gob.ar" target="_blank"></a>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                      <div class="sub-brand">
+                        <p>Dirección General de Gestión Digital<br />
+                        <span class="text-muted">Ministerio de Modernización</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+        </footer>
 
+        <script src="bastrap3/jquery.min.js"></script>
+        <script src="bastrap3/bootstrap.min.js"></script>
+        <script src="docs/docs.js"></script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+          ga('create', 'UA-17784640-34', 'auto');
+          ga('send', 'pageview');
+        </script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="smoothscroll.js"></script>
 
-
-<script src="bastrap3/jquery.min.js"></script>
-<script src="bastrap3/bootstrap.min.js"></script>
-<script src="docs/docs.js"></script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-17784640-34', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-</body>
+    </body>
 </html>
