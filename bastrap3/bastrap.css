@@ -103,19 +103,19 @@ h3,
 @media (max-width: 767px) {
   h1, .h1 {
     font-size: 2em;
- 
+
  }
   h2, .h2 {
     font-size: 1.7em;
- 
+
  }
   h3, .h3 {
     font-size: 1.4em;
- 
+
  }
   h4, .h4 {
     font-size: 1.2em;
- 
+
  }
 }
 
@@ -317,7 +317,7 @@ input[type=checkbox]:focus {
     padding: 12px 40px;
     font-size: 20px;
     line-height: 26px;
- 
+
  }
 }
 
@@ -994,7 +994,7 @@ input[type=checkbox]:focus {
     height: 64px;
     line-height: 64px;
     font-size: 220%;
- 
+
  }
 }
 
@@ -1027,7 +1027,7 @@ a,
   .input-xl {
     height: 64px;
     font-size: 24px;
- 
+
  }
 }
 
@@ -1278,7 +1278,7 @@ a.list-group-item.active > .badge {
 }
 
 .badge {
-  background-color: #aaa; 
+  background-color: #aaa;
   position: relative;
   -ms-behavior: url(../bastrap3/pie.htc);
 }
@@ -1318,7 +1318,7 @@ a.list-group-item.active > .badge {
   background-repeat: no-repeat;
   -webkit-background-size: contain;
   background-size: contain;
-  display: inline-block; 
+  display: inline-block;
   -ms-behavior: url(../bastrap3/backgroundsize.min.htc);
 }
 
@@ -1392,16 +1392,16 @@ a.list-group-item.active > .badge {
     display: block;
   }
   .navbar > .container .bac-header, .navbar > .container-fluid .bac-header {
-   
-     float: none; 
-     margin-left: 35%; 
+
+     float: none;
+     margin-left: 35%;
      margin-right: 0;
      margin-bottom:8px;
 
  }
   .navbar-top .sub-brand {
     display: none;
-  } 
+  }
 }
 
 .navbar-top h5.sub-brand {
@@ -1420,7 +1420,7 @@ a.list-group-item.active > .badge {
     background: #fff;
     margin-left: 15px;
     margin-right: 15px;
-  } 
+  }
 }
 .navbar-top .navbar-brand {
   font-family: "CHANEWEI", Helvetica, Arial, sans-serif;
@@ -1436,7 +1436,7 @@ a.list-group-item.active > .badge {
   position: relative;
   text-shadow: none;
   background-color: transparent;
-  min-height: 48px; 
+  min-height: 48px;
   -ms-behavior: url(../bastrap3/pie.htc);
 }
 
@@ -1658,7 +1658,7 @@ ul.affix-bottom {
 .navbar-default .nav .open > a:hover,
 .navbar-default a.navbar-brand:focus,
 .navbar-default a.navbar-brand:hover {
-  
+
   color: #888;
 }
 
@@ -1668,7 +1668,7 @@ ul.affix-bottom {
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
   border-color: #ccc;
-  
+
 }
 
 .navbar-default .nav > li > a:active
@@ -1952,7 +1952,7 @@ ul.affix-bottom {
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
     background-color: #474747;
     color: #fff;
-  } 
+  }
 }
 
 /* navbar default jumbotron */
@@ -2047,7 +2047,7 @@ ul.affix-bottom {
   background-color: #f5f5f5;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
-  background-size: cover; 
+  background-size: cover;
   -ms-behavior: url(../bastrap3/backgroundsize.min.htc);
 }
 
@@ -2081,10 +2081,10 @@ ul.affix-bottom {
 }
 
 .jumbotron-overlay {
-  background: rgba(0, 0, 0, 0.4); 
+  background: rgba(0, 0, 0, 0.4);
 }
 .lt-ie9 .jumbotron-overlay {
-  background: url(black4.png) !important; 
+  background: url(black4.png) !important;
 }
 
 .jumbotron-home {
@@ -2114,7 +2114,7 @@ ul.affix-bottom {
 .jumbotron-main .navbar .container,
 .jumbotron-small .container {
   padding-top: 0;
-  padding-bottom: 0; 
+  padding-bottom: 0;
 }
 
 .jumbotron-small .navbar {
@@ -2254,7 +2254,7 @@ ul.affix-bottom {
 .pagination > li > a:focus {
   border: 0;
   padding: 10px 16px;
-  border-radius: 4px; 
+  border-radius: 4px;
   position: relative;
   -ms-behavior: url(../bastrap3/pie.htc);
 }
@@ -2323,7 +2323,7 @@ ul.affix-bottom {
 
 /* labels */
 .label {
-  font-weight: 400; 
+  font-weight: 400;
   position: relative;
   -ms-behavior: url(../bastrap3/pie.htc);
 }
@@ -2450,7 +2450,7 @@ ul.affix-bottom {
 }
 
 .media img {
-  border-radius: 4px; 
+  border-radius: 4px;
   position: relative;
   -ms-behavior: url(../bastrap3/pie.htc);
 }
@@ -2458,7 +2458,7 @@ ul.affix-bottom {
 /* carousel */
 .carousel {
   margin-bottom: 30px;
-  border-radius: 6px; 
+  border-radius: 6px;
   position: relative;
   -ms-behavior: url(../bastrap3/pie.htc);
 }
@@ -2506,7 +2506,7 @@ ul.affix-bottom {
 }
 
 .carousel-inner {
-  border-radius: 6px; 
+  border-radius: 6px;
   position: relative;
   -ms-behavior: url(../bastrap3/pie.htc);
 }
@@ -2518,7 +2518,7 @@ ul.affix-bottom {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   width: 100%;
-  border-radius: 6px; 
+  border-radius: 6px;
   position: relative;
   -ms-behavior: url(../bastrap3/pie.htc);
 }
@@ -2569,7 +2569,7 @@ ul.affix-bottom {
 
 /* jumbotron carousel */
 .jumbotron > .carousel .carousel-inner {
-  border-radius: 0; 
+  border-radius: 0;
   position: relative;
   -ms-behavior: url(../bastrap3/pie.htc);
 }
@@ -2657,12 +2657,12 @@ ul.affix-bottom {
         margin:0 auto 24px auto;
         width:80px;
         height:80px;
-     
+
   }
     .shortcut span.glyphicon {
         padding-top:20px;
         font-size:40px;
-     
+
   }
 }*/
 
@@ -2742,8 +2742,6 @@ ul.affix-bottom {
   -ms-behavior: url(../bastrap3/pie.htc);
   -webkit-box-shadow: none;
   box-shadow: none;
-  -webkit-box-shadow: 0 0 4px #aaa;
-  box-shadow: 0 0 4px #aaa;
 }
 
 a.list-group-item {
@@ -2822,7 +2820,7 @@ a.list-group-item:focus p {
 
 /* list-group-panel-body */
 .list-group-panel-body .list-group-item:first-child {
-  border-radius: 0; 
+  border-radius: 0;
   position: relative;
   -ms-behavior: url(../bastrap3/pie.htc);
 }
@@ -2841,7 +2839,7 @@ a.list-group-item:focus p {
   .list-group-panel .panel-footer {
     position: static;
     border-top: 0;
-  } 
+  }
 }
 
 /* list heading */
@@ -2929,7 +2927,7 @@ a.list-group-item:focus p {
   -webkit-background-size: cover;
   background-size: cover;
   overflow: auto;
-  border-bottom: 0; 
+  border-bottom: 0;
   -ms-behavior: url(../bastrap3/backgroundsize.min.htc);
 }
 
@@ -2976,7 +2974,7 @@ a.list-group-item:focus p {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 15px;
-  border-radius: 4px; 
+  border-radius: 4px;
   position: relative;
   -ms-behavior: url(../bastrap3/pie.htc);
   -ms-behavior: url(../bastrap3/backgroundsize.min.htc);
@@ -3025,7 +3023,7 @@ a.list-group-item:focus p {
   border-right: 0;
   -webkit-background-size: cover;
   background-size: cover;
-  text-align: center; 
+  text-align: center;
   -ms-behavior: url(../bastrap3/backgroundsize.min.htc);
 }
 
@@ -3222,7 +3220,7 @@ a.list-group-item:focus p {
 
 a.alert-spot:hover,
 a.alert-spot:focus {
-  opacity: 
+  opacity:
   .9;
 }
 
@@ -3404,7 +3402,7 @@ a.alert-spot:active {
 }
 
 #accordion .panel-heading {
-  border-radius: 0px; 
+  border-radius: 0px;
   position: relative;
   -ms-behavior: url(../bastrap3/pie.htc);
 }
@@ -3626,43 +3624,43 @@ a.alert-spot:active {
 @font-face {
   font-family: "OpenSans";
   src: url("fonts/opensans-regular.eot");
-  src: url("fonts/opensans-regular.eot?#iefix") format("embedded-opentype"), 
-       url("fonts/opensans-regular.svg#OpenSansRegular") format("svg"), 
-       url("fonts/opensans-regular.woff") format("woff"), 
+  src: url("fonts/opensans-regular.eot?#iefix") format("embedded-opentype"),
+       url("fonts/opensans-regular.svg#OpenSansRegular") format("svg"),
+       url("fonts/opensans-regular.woff") format("woff"),
        url("fonts/opensans-regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal; 
+  font-style: normal;
 }
 
 @font-face {
   font-family: "OpenSansBold";
   src: url("fonts/opensans-bold.eot");
-  src: url("fonts/opensans-bold.eot?#iefix") format("embedded-opentype"), 
-       url("fonts/opensans-bold.svg#OpenSansRegular") format("svg"), 
-       url("fonts/opensans-bold.woff") format("woff"), 
+  src: url("fonts/opensans-bold.eot?#iefix") format("embedded-opentype"),
+       url("fonts/opensans-bold.svg#OpenSansRegular") format("svg"),
+       url("fonts/opensans-bold.woff") format("woff"),
        url("fonts/opensans-bold.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal; 
+  font-style: normal;
 }
 
 /*@font-face {
   font-family: "Gotham";
   src: url("fonts/gotham-medium.eot");
-  src: url("fonts/gotham-medium.eot?#iefix") format("embedded-opentype"), 
-       url("fonts/gotham-medium.svg#Gotham") format("svg"), 
-       url("fonts/gotham-medium.woff") format("woff"), 
+  src: url("fonts/gotham-medium.eot?#iefix") format("embedded-opentype"),
+       url("fonts/gotham-medium.svg#Gotham") format("svg"),
+       url("fonts/gotham-medium.woff") format("woff"),
        url("fonts/gotham-medium.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal; 
+  font-style: normal;
 }*/
 
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url("fonts/glyphicons-halflings-regular.eot");
-  src: url("fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), 
-       url("fonts/glyphicons-halflings-regular.woff") format("woff"), 
-       url("fonts/glyphicons-halflings-regular.ttf") format("truetype"), 
-       url("fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); 
+  src: url("fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"),
+       url("fonts/glyphicons-halflings-regular.woff") format("woff"),
+       url("fonts/glyphicons-halflings-regular.ttf") format("truetype"),
+       url("fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
 
 
@@ -3784,12 +3782,12 @@ a.alert-spot:active {
 @font-face {
   font-family: "CHANEWEI";
   src: url("fonts/CHANEWEI.eot");
-  src: url("fonts/CHANEWEI.eot?#iefix") format("embedded-opentype"), 
-       url("fonts/CHANEWEI.svg#Gotham") format("svg"), 
-       url("fonts/CHANEWEI.woff") format("woff"), 
+  src: url("fonts/CHANEWEI.eot?#iefix") format("embedded-opentype"),
+       url("fonts/CHANEWEI.svg#Gotham") format("svg"),
+       url("fonts/CHANEWEI.woff") format("woff"),
        url("fonts/CHANEWEI.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal; 
+  font-style: normal;
 }
 
 h4,
@@ -3811,7 +3809,7 @@ h5,
 .navbar-brand {
   font-family: "CHANEWEI", Helvetica, Arial, sans-serif;
   letter-spacing: -0.3px;
-  
+
 }
 h1,
 .h1,
@@ -3820,7 +3818,7 @@ h2,
 h3,
 .h3 {
   font-family: "CHANEWEI", Helvetica, Arial, sans-serif;
-  
+
   letter-spacing: -0.5px;
 }
 
@@ -3865,4 +3863,3 @@ h3,
     padding: 24px 0 0 0;
     color: #0389d1 !important;
 }
-
